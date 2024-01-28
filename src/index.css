@@ -7,11 +7,11 @@ body {
 }
 
 /* PRIMARY COLOR */
-.p-orange {
+.color-orange {
   color: hsl(26, 100%, 55%);
 }
 
-.p-pale-orange {
+.color-pale-orange {
   color: hsl(25, 100%, 94%);;
 }
 
