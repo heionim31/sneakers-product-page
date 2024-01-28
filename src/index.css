@@ -2,3 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+ margin: 0 10rem;
+}
+
+/* PRIMARY COLOR */
+.p-orange {
+  color: hsl(26, 100%, 55%);
+}
+
+.p-pale-orange {
+  color: hsl(25, 100%, 94%);;
+}
+
+
+/* NEUTRAL COLOR */
+.very-dark-blue {
+  color: hsl(220, 13%, 13%);
+}
+
+.dark-grayish-blue{
+  color: hsl(219, 9%, 45%) 
+}
+
+.grayish-blue {
+  color:hsl(220, 14%, 75%) ;
+}
+
+.light-grayish-blue {
+  color: hsl(223, 64%, 98%);
+}
+
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+.black {
+  color: hsl(0, 0%, 0%);
+}
+
+.lightbox-black {
+  color: hsl(0, 0%, 0%, 0.0075);
+}
