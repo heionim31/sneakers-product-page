@@ -1,9 +1,11 @@
 import LeftSide from "./LeftSide";
+import RightSide from "./RightSide";
 
 export default function Container() {
   return (
-    <div>
+    <div className="flex">
       <LeftSide />
+      <RightSide />
     </div>
   );
 }
