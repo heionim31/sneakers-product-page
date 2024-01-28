@@ -7,15 +7,35 @@ import thumbnailFour from "../assets/image-product-4-thumbnail.jpg";
 
 export default function LeftSide() {
   return (
-    <div>
-      <div>
-        <img src={productOne} alt="" className="w-1/3 h-1/3" />
+    <div className="flex flex-col items-center">
+      <div className="flex justify-center mb-4">
+        <img
+          src={productOne}
+          alt="Product"
+          className="w-2/3 h-auto rounded-lg"
+        />
       </div>
-      <div className="flex">
-        <img src={thumbnailOne} alt="" className="w-24 h-24" />
-        <img src={thumbnailTwo} alt="" className="w-24 h-24" />
-        <img src={thumbnailThree} alt="" className="w-24 h-24" />
-        <img src={thumbnailFour} alt="" className="w-24 h-24" />
+      <div className="flex space-x-10">
+        <img
+          src={thumbnailOne}
+          alt="Thumbnail 1"
+          className="w-16 h-16 mr-2 rounded-md cursor-pointer"
+        />
+        <img
+          src={thumbnailTwo}
+          alt="Thumbnail 2"
+          className="w-16 h-16 mr-2 rounded-md cursor-pointer"
+        />
+        <img
+          src={thumbnailThree}
+          alt="Thumbnail 3"
+          className="w-16 h-16 mr-2 rounded-md cursor-pointer"
+        />
+        <img
+          src={thumbnailFour}
+          alt="Thumbnail 4"
+          className="w-16 h-16 rounded-md cursor-pointer"
+        />
       </div>
     </div>
   );
